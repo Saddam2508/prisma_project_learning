@@ -4,8 +4,8 @@ import { JwtPayload } from "jsonwebtoken";
 import config from "../config";
 import { catchAsync } from "../utils/catchAsync";
 import { jwtUtils } from "../utils/jwt";
-import { Role } from "../../prisma/generated/prisma/browser";
 import { prisma } from "../lib/prisma";
+import { Role } from "../../prisma/generated/prisma/enums";
 
 declare global {
   namespace Express {
